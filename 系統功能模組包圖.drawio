@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-12-21T15:11:53.115Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="cGM7A7yKDfQ7A0jkQBqD" version="22.1.11" type="google">
+  <diagram name="第 1 页" id="rpLlBsQo6AkZDKjytO2A">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-2" value="用戶介面" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2328" y="49" width="97" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-3" value="業務邏輯" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1975" y="49" width="97" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-4" value="數據訪問" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2171" y="133" width="97" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-5" value="權限管理" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2328" y="290" width="97" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-6" value="異常處理" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1975" y="290" width="97" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-7" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0.433;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=68.5;entryDy=14;entryPerimeter=0;" edge="1" parent="1" source="McjDVjIMsSs2UeSFPrv5-2" target="McjDVjIMsSs2UeSFPrv5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2059" y="300" as="sourcePoint" />
+            <mxPoint x="-2139" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-10" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=0;exitDx=97;exitDy=41.5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=27.75;entryPerimeter=0;" edge="1" parent="1" source="McjDVjIMsSs2UeSFPrv5-2" target="McjDVjIMsSs2UeSFPrv5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2153" y="-42" as="sourcePoint" />
+            <mxPoint x="-2171" y="181.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-11" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0;exitY=0;exitDx=97;exitDy=41.5;exitPerimeter=0;" edge="1" parent="1" source="McjDVjIMsSs2UeSFPrv5-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2221" y="101" as="sourcePoint" />
+            <mxPoint x="-2125" y="203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-12" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="McjDVjIMsSs2UeSFPrv5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2230" y="342" as="sourcePoint" />
+            <mxPoint x="-2115" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-13" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;entryX=0;entryY=0;entryDx=97;entryDy=27.75;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=55.25;exitPerimeter=0;" edge="1" parent="1" source="McjDVjIMsSs2UeSFPrv5-3" target="McjDVjIMsSs2UeSFPrv5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2220" y="352" as="sourcePoint" />
+            <mxPoint x="-1941" y="128" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="McjDVjIMsSs2UeSFPrv5-14" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.505;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="McjDVjIMsSs2UeSFPrv5-3" target="McjDVjIMsSs2UeSFPrv5-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2221" y="101" as="sourcePoint" />
+            <mxPoint x="-2161" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
