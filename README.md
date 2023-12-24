@@ -110,7 +110,7 @@ _当前用户量最多的数据库是关系型数据库，属于面向对象系�
 
 商家实体属性图如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/商店實體屬性圖10.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/商家實體屬性圖10.png)
 
 图4-5商家实体属性图
 
