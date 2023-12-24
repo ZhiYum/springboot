@@ -32,7 +32,7 @@ MySQL 5.7資料庫：用於資料儲存和管理。
 
 （1）、管理員關鍵功能包含對系統首頁、個人中心、使用者管理、商家管理、商品分類管理、美食資訊管理、系統管理、訂單管理等進行管理。管理員用例如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/1.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/管理員用例圖1.png)
 
 圖3-1 管理員用例圖
 
