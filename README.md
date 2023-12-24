@@ -38,26 +38,26 @@ MySQL 5.7資料庫：用於資料儲存和管理。
 
 （2）、商家關鍵功能包含對系統首頁、個人中心、美食資訊管理、訂單管理等進行管理。商家用例如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/2.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/商家用例圖2.png)
 
 圖3-2 商家用例圖
 
 （3）、用戶關鍵功能包含對首頁、美食資訊、美食資訊、後台管理、購物車、個人中心等進行管理。用戶用例如下：
 
- ![Image](https://github.com/ZhiYum/springboot/blob/main/3.png)
+ ![Image](https://github.com/ZhiYum/springboot/blob/main/用戶用例圖3.png)
 
 圖3-3用戶用例圖
 
 ## 3.4 系統流程分析
 登入模組有許多規則，這些規則是用來限制使用者權限的，使用者進入系統前要進行登錄，登入成功後方可對相關權限的操作。系統登入流程如圖3-4所示:
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/4.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/系統登入流程圖4.png)
 
 圖3-4系統登入流程圖
 
 新增用戶的流程是先查詢新用戶名是否已存在，如已有該用戶名，需重擬用戶名並同時輸入新用戶的其它信息，添加新用戶到數據庫時會先驗證數據是否完整，信息都正確且完整時，返回並刷新用戶列表；資訊不正確時，會返回輸入資訊的那一步。流程如圖3-5所示：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/5.png) 
+![Image](https://github.com/ZhiYum/springboot/blob/main/添加新用戶流程圖5.drawio.png) 
 
 圖3-5新增用戶流程圖
 
@@ -78,18 +78,18 @@ MySQL 5.7資料庫：用於資料儲存和管理。
 
 下面我们将根据架构设计原则和目标来建立系统的架构设计模型。将信息系统中对象分层，可分为三层：用户界面层、业务层、数据访问层（如下图4-1所示），再把各层中的一些公共部分提出来：权限管理、异常处理，这样得到包图如图4-2所示：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/6.png) 
+![Image](https://github.com/ZhiYum/springboot/blob/main/系統體系架構圖6.png) 
 
 图4-1  系统体系架构图
  
-![Image](https://github.com/ZhiYum/springboot/blob/main/7.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/系統功能模組包圖7.png)
 
 图4-2  系统功能模块包图
 
 ## 4.2 系统架构类图
 展开包图，得到类图，它是静态结构图的架构，使各个种类之间的关系，表达了静态联系。系统类图如下图4-3所示：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/8.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/系統類圖8.png)
 
 图4-3 系统类图
 
@@ -97,7 +97,7 @@ MySQL 5.7資料庫：用於資料儲存和管理。
 本课题要求实现优质的外卖订餐系统，就一定要包含有数据库、服务器相联系，从而实现系统的功能运转。系统分为管理员、用户和商家三个角色，主要包括系统首页、个人中心、用户管理、商家管理、商品分类管理、美食信息管理、系统管理、订单管理等功能。本系统的功能结构图如下所示：
 
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/9.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/系統功能結構圖9.png)
  
 
 图4-4 系统功能结构图
@@ -110,31 +110,31 @@ _当前用户量最多的数据库是关系型数据库，属于面向对象系�
 
 商家实体属性图如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/10.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/商店實體屬性圖10.png)
 
 图4-5商家实体属性图
 
 用户实体属性图如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/11.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/用戶實體屬性11.png)
 
 图4-6用户实体属性图
 
 美食信息实体属性图如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/12.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/美食信息實體屬性圖12.png)
 
 图4-7美食信息实体属性图
 
 美食信息评论实体属性图如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/13.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/美食信息評論實體屬性圖13.png)
 
 图4-8美食信息评论实体属性图
 
 美食资讯实体属性图如下：
 
-![Image](https://github.com/ZhiYum/springboot/blob/main/14.png)
+![Image](https://github.com/ZhiYum/springboot/blob/main/美食資訊實體屬性圖14.png)
 
 图4-9美食资讯实体属性图
 
